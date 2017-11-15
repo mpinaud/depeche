@@ -39,12 +39,14 @@ body {
 }
 
 .social-media img {
+  margin-top: 10px;
   width: 39px;
 }
 
 .photos {
   width: 50%;
   float: right;
+  margin-bottom: 100px;
 }
 
 .photos img {
