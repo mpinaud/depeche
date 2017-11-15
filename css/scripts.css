@@ -4,9 +4,11 @@
   padding: 0;
 }
 
+body {
+  background-color: grey;
+}
 .container {
   padding: 30px;
-  background-color: grey;
 }
 
 .nav-bar img {
@@ -23,12 +25,40 @@
 
 .header {
   margin-top: 75px;
-  clear: both;
-  background-color: black;
   color: white;
+  background-color: black;
+  background-image: url(../img/strangelove.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
 }
 
-.header img {
-  padding-left: 50%;
-  transform: translate(-25%, 0%);
+.content {
+  width: 50%;
+  float: left;
+}
+
+.social-media img {
+  width: 39px;
+}
+
+.photos {
+  width: 50%;
+  float: right;
+}
+
+.photos img {
+  margin: 10px;
+  width: 20%;
+  height: 100px;
+  float: left;
+}
+
+.photos img:nth-child(6), .photos img:nth-child(10){
+  clear: both;
+}
+.video {
+  margin: 10px;
+  width: 100%;
+  text-align: center;
 }
